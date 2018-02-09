@@ -13,13 +13,17 @@
 			shuffle($ans_array); 
 			?>
 
+			<!-- Question -->
 			<p><?=$rows['Assignment_ID']?>.<?=$rows['Question_1']?></p>
+			<!-- first answer -->
 			<input type="radio" name="Assignment<?=$rows['Assignment_ID']?>" value="<? $ans_array[0]?>">
 			<?=$ans_array[0]?>
 			<br>
+			<!-- second answer -->
 			<input type="radio" name="Assignment<?=$rows['Assignment_ID']?>" value="<? $ans_array[0]?>">
 			<?=$ans_array[1]?>
 			<br>
+			<!-- third answer -->
 			<input type="radio" name="Assignment<?=$rows['Assignment_ID']?>" value="<? $ans_array[0]?>">
 			<?=$ans_array[2]?>
 			<br>

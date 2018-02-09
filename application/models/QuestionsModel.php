@@ -1,11 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
-* 
-*/
+
 class QuestionsModel extends CI_Model
 {
+	/**
+	* Constructor
+	*/
 	function __construct(){
 
 		// parent::__Construct();
@@ -13,14 +14,14 @@ class QuestionsModel extends CI_Model
 		//$this->load->helper('dump');
 	}
 	
+	/**
+	* This function returns the questions
+	*/
 	public function return_questions()
 	{
-		# code...
-		
-		// $query=$this->db->query("SELECT Assignment_ID, Question_1, Answer_1, Answer_2, Answer_3  FROM assignment");
+		// selects the query from the database
 		$query=$this->db->get('assignment');
 		return $query->result_array();
-		// return $query;
 	}
 }
 
