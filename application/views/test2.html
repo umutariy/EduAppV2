@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="views/css/index.css">
+
+</head>
+<body class="img">
+    <div class="section"></div>
+
+    <center>
+
+        <!-- Header -->
+        <h1 id="header">Welcome to EduApp</h1>
+
+        <!-- form -->
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div  class="bg-info row form-group col-md-6" id="divFieldset">
+
+                <!-- username -->
+                <div class='row form-group'>
+                    <input class='form-control' type="text" name='username' placeholder="username" required />
+                </div>
+
+                <!-- password -->
+                <div class='row form-group'>
+                    <input class='form-control' type='password' name='password' id='password' placeholder="Password" required/>
+                </div>
+
+                <!-- submit button -->
+                <div class='row form-group'>
+                    <button class="btn btn-block btn-success" type="submit" name="action">Login</button><p></p>  
+                    <label>
+                        <b style="color: white;">Don't have an Acount? <a href="signUp.html">Sign Up</a></b>
+                    </label>        
+                </div>
+            </div>
+        </form>
+    </center>
+
+
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

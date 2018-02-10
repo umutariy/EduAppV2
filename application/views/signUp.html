@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignUp Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body class="img">
+    <div class="section"></div>
+
+    <center>
+        <!-- Header -->
+        <h3>Welcome to EduApp</h3>
+
+        <!-- form -->
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div  class="z-depth-3 y-depth-3 x-depth-3 grey green-text lighten-4 row" id="divFieldset">
+
+                <!-- First name and last name -->
+                <div class='row form-group'>
+                    <div class='form-control col md 6'>
+                        <input type="text" name='firstname' required />
+                        <label for='firstname'>First Name</label>
+                    </div>
+                    <div class='form-control col md 6'>
+                        <input type="text" name='lastname' required />
+                        <label for='lastname'>Last Name</label>
+                    </div>
+                </div>
+
+                <!-- phone number and password -->
+                <div class='row form-group'>
+                    <div class='form-control col md 6'>
+                        <input type="text" name='phonenumber' required />
+                        <label for='phonenumber'>Phone Number</label>
+                    </div>
+                    <div class='form-control col md 6'>
+                        <input type='password' name='password' id='password' required />
+                        <label for='password'>Password</label>
+                    </div>
+                </div>
+
+                <!-- Email and occupation -->
+                <div class='row form-group'>
+                    <div class='form-control col md 6'>
+                        <input type="text" name='email' required />
+                        <label for='email'>Email</label>
+                    </div>
+                    <div class="form-control col md 6">
+                        <select>
+                            <option value="" disabled selected>Select User Type</option>
+                            <option value="1">Administrator</option>
+                            <option value="2">Student</option>
+                            <option value="3">Teacher</option>
+                            <option value="4">Parent</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Signup button -->
+                <div class='row form-group'>
+                    <button class="btn btn-success" type="submit" name="action">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </center>
+
+
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
