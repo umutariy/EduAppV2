@@ -3,7 +3,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-class Newquestions extends CI_Controller
+class Appcontroller extends CI_Controller
 {
 	/**
 	* Constructor
@@ -15,8 +15,18 @@ class Newquestions extends CI_Controller
 		//$this->load->helper('dump');
 	}
   
+  	/**
+	* This function loads the login view with the assignment questions
+	*/
+	public function index()
+	{
+	    $this->load->view('index.html');
+
+	}
+
+
 	/**
-	* This function loads the view with the assignment questions
+	* This function loads the questions view with the assignment questions
 	*/
 	public function quiz()
 	{
