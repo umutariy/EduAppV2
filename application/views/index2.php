@@ -4,8 +4,9 @@
     <title>Login Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
 
 </head>
 <body class="img">
@@ -46,7 +47,7 @@
 
                         <!-- create an account -->
                         <label>
-                            <b style="color: #0097a7;">Don't have an Acount? <a href="signUp.html">Sign Up</a></b>
+                            <b style="color: #0097a7;">Don't have an Acount? <a href="signup2">Sign Up</a></b>
                         </label>        
                     </div><!-- end of login div -->
                 </div><!-- end of the entire div -->
@@ -55,7 +56,8 @@
     </main>
 
     <!-- Javascript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
 </body>
 </html>

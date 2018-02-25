@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body class="img">
@@ -26,7 +26,7 @@
     <h4 style="color: #0097a7">Your Dashboard</h4>
       <fieldset style="width:150" align="center" class="fieldset">
 
-        <form method="" action="index.php/QuestionsModel/return_questions">
+        <!-- <form method="" action="index.php/quiz1"> -->
           <div class='row'>
             <button class="btn btn-block waves-effect waves-light" type="submit" name="records">View Records
               <i class="material-icons right">assignment</i>
@@ -34,7 +34,7 @@
           </div>
          
           <div class='row'>
-            <a href="Students_Questions.php"><button class="btn btn-block waves-effect waves-light" type="submit" name="assignment">Start Assignment
+            <a href="students_questions"><button class="btn btn-block waves-effect waves-light" type="submit" name="assignment">Start Assignment
               <i class="material-icons right">mode_edit</i>
             </button></a>        
           </div>
@@ -44,7 +44,7 @@
               <i class="material-icons right">email</i>
             </button>         
           </div>
-        </form>
+        <!-- </form> -->
 
       </fieldset>
     </center>

@@ -4,7 +4,8 @@
     <title>SignUp Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
 </head>
@@ -64,9 +65,9 @@
                     
                     <!-- Signup button -->
                     <div class='row'>
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Sign Up
+                        <a href="index"><button class="btn waves-effect waves-light" type="submit" name="action">Sign Up
                             <i class="material-icons right">send</i>
-                        </button>         
+                        </button></a>        
                     </div> <!-- end of signup button -->
                 </div> <!-- end of the entire div -->
             </form>

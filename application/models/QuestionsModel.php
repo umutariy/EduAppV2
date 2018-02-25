@@ -13,7 +13,7 @@ class QuestionsModel extends CI_Model
 		$this->load->database();
 		//$this->load->helper('dump');
 	}
-	
+
 	/**
 	* This function returns the questions
 	*/
@@ -22,6 +22,14 @@ class QuestionsModel extends CI_Model
 		// selects the query from the database
 		$query=$this->db->get('assignment');
 		return $query->result_array();
+	}
+
+	/**
+	* This function inserts into the database
+	*/
+	public function set_questions($data)
+	{
+		$query=$this->db->insert('assignment', $data);
 	}
 }
 
