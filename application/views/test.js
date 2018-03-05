@@ -1,16 +1,25 @@
-function createQuestion() {
-	var x = document.getElementById("form");
-	var x = document.getElementById("content");
-	var y = document.createElement("INPUT");
-	y.setAttribute("type", "text");
-	y.setAttribute("placeholder", "My input");
 
-	x.appendChild(y);
+var x = document.getElementById("questions");
+var forRadio = document.getElementById("choice");
+var forText = document.getElementById("text_input")
+var option = document.getElementById("option");
+var text = document.getElementById("text");
 
-	document.getElementById("add").style.display="none";
+function createQuestion() 
+{
+	document.getElementById("choice").style.display="none";
+	document.getElementById("text_input").style.display="none";
+	document.getElementById("questions").style.display="block";
 }
 
-function test(){
-	var x = document.getElementById("username");
-	var x = document.getElementById("password");
+function choice(option)
+{
+	forRadio.style.display="block";
 }
+
+function text_Input(text)
+{
+	forText.style.display="block";
+}
+
+

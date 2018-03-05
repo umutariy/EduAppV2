@@ -25,11 +25,19 @@ class QuestionsModel extends CI_Model
 	}
 
 	/**
-	* This function inserts into the database
+	* This function inserts the questions into the database
 	*/
 	public function set_questions($data)
 	{
 		$query=$this->db->insert('assignment', $data);
+	}
+
+	/**
+	* This function inserts the answers into the database
+	*/
+	public function answer_questions($data)
+	{
+		$query=$this->db->insert('answer', $data);
 	}
 }
 
