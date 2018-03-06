@@ -50,14 +50,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-$route['students_questions']='appcontroller/quiz';
-$route['index']='appcontroller/index';
-$route['signup2']='appcontroller/signup2';
-$route['student']='appcontroller/student_dashboard';
-$route['test']='appcontroller/set_questions_trial';
-$route['message']='appcontroller/send_message';
-$route['answer']='appcontroller/answer_questions';
-$route['child']='appcontroller/view_child';
+
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+// AppController
+$route['index']='appcontroller/index';
+$route['signup2']='appcontroller/signup2';
+$route['student']='appcontroller/student_dashboard';
+$route['child']='appcontroller/view_child';
+
+// QuestionController
+$route['test']='questioncontroller/set_questions_trial';
+$route['students_questions']='questioncontroller/quiz';
+$route['answer']='questioncontroller/answer_questions';
+
+// MessageController
+$route['message']='messagecontroller/message';
+$route['send_message']='messagecontroller/send_message';
+
+

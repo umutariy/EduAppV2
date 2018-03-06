@@ -39,6 +39,7 @@ class QuestionsModel extends CI_Model
 	{
 		$query=$this->db->insert('answer', $data);
 	}
+
 }
 
 ?>

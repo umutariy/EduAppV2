@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Set Questions</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/index.css">
-  <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/materialize.css">
-  <link rel="stylesheet" type="text/css" href="fonts/roboto/">
-</head>
-<body class="img">
   <!-- Navigation Bar -->
   <nav>
     <div class="nav-wrapper" style="background-color: #0097a7">
@@ -90,7 +77,7 @@
               <a id="option" class="btn" onclick="choice()" style="margin-left: -50px"><i class="fa fa-dot-circle-o"></i> Choice</a>
               <a id="text" class="btn" onclick="text_Input()"></i>Text</a>
             </div>
-          
+            
             <!-- Multiple choice question -->
             <div id="choice" class="input-field col s12">
               <div class="input-field col s12">
@@ -119,15 +106,3 @@
         </form>
       </fieldset>
     </center>
-    <!-- JavaScript -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-    <script type="text/javascript" src="test.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('select').material_select();
-      });
-    </script>
-  </body>
-  </html>

@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/materialize.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
-<body class="img">
 
     <!-- Navigation Bar -->
     <nav>
@@ -28,18 +16,22 @@
       <fieldset style="width:150" align="center" class="fieldset">
 
         <!-- <form method="" action="index.php/quiz1"> -->
+        
+          <!-- View Records -->
           <div class='row'>
             <button class="btn btn-block waves-effect waves-light" type="submit" name="records">View Records
               <i class="material-icons right">assignment</i>
             </button>         
           </div>
          
+         <!-- Start Assignment -->
           <div class='row'>
             <a href="students_questions"><button class="btn btn-block waves-effect waves-light" type="submit" name="assignment">Start Assignment
               <i class="material-icons right">mode_edit</i>
             </button></a>        
           </div>
 
+         <!-- Message from Teacher -->
           <div class='row'>
             <button class="btn btn-block waves-effect waves-light" type="submit" name="message">View Message from teacher
               <i class="material-icons right">email</i>
@@ -49,8 +41,3 @@
 
       </fieldset>
     </center>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-</body>
-</html>
